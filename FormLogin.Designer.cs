@@ -1,7 +1,7 @@
 ﻿
 namespace GetFastAdmin
 {
-    partial class Form1
+    partial class FormLogin
     {
         /// <summary>
         ///  Required designer variable.
@@ -102,8 +102,8 @@ namespace GetFastAdmin
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox_password);
             this.Controls.Add(this.textBox_username);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "FormLogin";
+            this.Text = "FormLogin";
             this.ResumeLayout(false);
             this.PerformLayout();
 

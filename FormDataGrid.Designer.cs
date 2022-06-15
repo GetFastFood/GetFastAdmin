@@ -1,7 +1,7 @@
 ﻿
 namespace GetFastAdmin
 {
-    partial class Form2
+    partial class FormDataGrid
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace GetFastAdmin
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormDataGrid));
             this.textBoxName = new System.Windows.Forms.TextBox();
             this.textBoxSurname = new System.Windows.Forms.TextBox();
             this.textBoxMail = new System.Windows.Forms.TextBox();
@@ -293,6 +293,7 @@ namespace GetFastAdmin
             // 
             resources.ApplyResources(this.textBoxUsername, "textBoxUsername");
             this.textBoxUsername.Name = "textBoxUsername";
+            this.textBoxUsername.TextChanged += new System.EventHandler(this.textBoxUsername_TextChanged);
             // 
             // textBoxPassword
             // 
@@ -317,7 +318,7 @@ namespace GetFastAdmin
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
-            // Form2
+            // FormDataGrid
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -349,7 +350,7 @@ namespace GetFastAdmin
             this.Controls.Add(this.textBoxMail);
             this.Controls.Add(this.textBoxSurname);
             this.Controls.Add(this.textBoxName);
-            this.Name = "Form2";
+            this.Name = "FormDataGrid";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

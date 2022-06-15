@@ -11,9 +11,9 @@ using System.Data.SqlClient;
 
 namespace GetFastAdmin
 {
-    public partial class Form1 : Form
+    public partial class FormLogin : Form
     {
-        public Form1()
+        public FormLogin()
         {
             InitializeComponent();
             textBox_password.PasswordChar = '*';
@@ -55,8 +55,8 @@ namespace GetFastAdmin
                     if (Cryptography.Decrypt(Password).Equals(textBox_password.Text))
                     {
                         this.Hide();
-                        Form2 frm2 = new Form2();
-                        frm2.ShowDialog();
+                        FormDataGrid formDatGrid = new FormDataGrid();
+                        formDatGrid.ShowDialog();
 
                     }
                     else

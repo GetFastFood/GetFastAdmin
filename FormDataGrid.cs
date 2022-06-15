@@ -9,13 +9,13 @@ using System.Windows.Forms;
 
 namespace GetFastAdmin
 {
-    public partial class Form2 : Form
+    public partial class FormDataGrid : Form
     {
         SqlConnection connection = new SqlConnection(@"Data Source=91.236.239.56;Initial Catalog=getFastSQL;Persist Security Info=True;User ID=sa;Password=@aCLSkT5D@KQk6DQ");
         SqlCommand com = new SqlCommand();
 
         private int tempID;
-        public Form2()
+        public FormDataGrid()
         {
             InitializeComponent();
             display();
@@ -175,11 +175,13 @@ namespace GetFastAdmin
 
             String sqlQuery = "UPDATE db_users SET user_name=@p1, name=@p2, surname=@p3, password=@p4, email=@p5, address=@p6, zip=@p7, city=@p8, country=@p9, status=@p10, userRole=@p11 WHERE ID = '" + tempID + "' ";
 
+            string password_crypted = Cryptography.Encrypt(textBoxPassword.Text.ToString());
+
             cmd = new SqlCommand(sqlQuery, connection);
             cmd.Parameters.AddWithValue("@p1", textBoxUsername.Text);
             cmd.Parameters.AddWithValue("@p2", textBoxName.Text);
             cmd.Parameters.AddWithValue("@p3", textBoxSurname.Text);
-            cmd.Parameters.AddWithValue("@p4", textBoxPassword.Text);
+            cmd.Parameters.AddWithValue("@p4", password_crypted);
             cmd.Parameters.AddWithValue("@p5", textBoxMail.Text);
             cmd.Parameters.AddWithValue("@p6", textBoxAddress.Text);
             cmd.Parameters.AddWithValue("@p7", int.Parse(textBoxZip.Text));
@@ -208,6 +210,11 @@ namespace GetFastAdmin
         private void button5_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void textBoxUsername_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
