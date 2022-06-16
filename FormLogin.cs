@@ -36,19 +36,19 @@ namespace GetFastAdmin
             connection.Open();
 
             com.Connection = connection;
-            com.CommandText = "SELECT * FROM db_users WHERE user_name = '" + textBox_username.Text + "'";
+            com.CommandText = "SELECT * FROM db_users WHERE email = '" + textBoxEmail.Text + "'";
 
             SqlDataReader dr = com.ExecuteReader();
 
             if (dr.Read())
             {
-                Password = dr.GetString(4);  //get the user password from db if the user name is exist in that.  
+                Password = dr.GetString(3);  //get the user password from db if the user name is exist in that.  
                 IsExist = true;
             }
 
             if (IsExist)  //if record exis in db , it will return true, otherwise it will return false  
             {
-                role = dr.GetString(11);
+                role = dr.GetString(8);
                 connection.Close();
                 if (role == "role_technique" || role == "role_commercial")
                 {
@@ -61,17 +61,20 @@ namespace GetFastAdmin
                     }
                     else
                     {
+                        connection.Close();
                         MessageBox.Show("Password is wrong!...", "error", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                 }
                 else
                 {
+                    connection.Close();
                     MessageBox.Show("Vous n'etes pas du staff", "error", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 
             }
             else  //showing the error message if user credential is wrong  
             {
+                connection.Close();
                 MessageBox.Show("Please enter the valid credentials", "error", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
 

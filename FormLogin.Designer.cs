@@ -29,7 +29,7 @@ namespace GetFastAdmin
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox_username = new System.Windows.Forms.TextBox();
+            this.textBoxEmail = new System.Windows.Forms.TextBox();
             this.textBox_password = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -37,13 +37,13 @@ namespace GetFastAdmin
             this.quitButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox_username
+            // textBoxEmail
             // 
-            this.textBox_username.Location = new System.Drawing.Point(306, 125);
-            this.textBox_username.Name = "textBox_username";
-            this.textBox_username.Size = new System.Drawing.Size(187, 27);
-            this.textBox_username.TabIndex = 0;
-            this.textBox_username.TextChanged += new System.EventHandler(this.textBox_username_TextChanged);
+            this.textBoxEmail.Location = new System.Drawing.Point(306, 125);
+            this.textBoxEmail.Name = "textBoxEmail";
+            this.textBoxEmail.Size = new System.Drawing.Size(187, 27);
+            this.textBoxEmail.TabIndex = 0;
+            this.textBoxEmail.TextChanged += new System.EventHandler(this.textBox_username_TextChanged);
             // 
             // textBox_password
             // 
@@ -57,9 +57,9 @@ namespace GetFastAdmin
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(306, 102);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(79, 20);
+            this.label1.Size = new System.Drawing.Size(46, 20);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Username ";
+            this.label1.Text = "Email";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
@@ -91,7 +91,7 @@ namespace GetFastAdmin
             this.quitButton.UseVisualStyleBackColor = true;
             this.quitButton.Click += new System.EventHandler(this.quitButton_Click);
             // 
-            // Form1
+            // FormLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -101,9 +101,9 @@ namespace GetFastAdmin
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox_password);
-            this.Controls.Add(this.textBox_username);
+            this.Controls.Add(this.textBoxEmail);
             this.Name = "FormLogin";
-            this.Text = "FormLogin";
+            this.Text = "Gestions des utilisateurs - GetFast";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -111,7 +111,7 @@ namespace GetFastAdmin
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox_username;
+        private System.Windows.Forms.TextBox textBoxEmail;
         private System.Windows.Forms.TextBox textBox_password;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;

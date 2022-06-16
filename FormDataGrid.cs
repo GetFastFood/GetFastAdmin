@@ -58,17 +58,17 @@ namespace GetFastAdmin
             connection.Open();
 
             com.Connection = connection;
-            com.CommandText = "SELECT user_name, email FROM db_users";
+            com.CommandText = "SELECT email FROM db_users";
 
             SqlDataReader dr = com.ExecuteReader();
 
             if (dr.Read())
             {
-                if (textBoxUsername.Text.Equals(dr["user_name"].ToString()) || textBoxMail.Text.Equals(dr["email"].ToString()))
+                if (textBoxMail.Text.Equals(dr["email"].ToString()))
                 {
-                    MessageBox.Show("Username and/or email is same", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Email is same", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     textBoxMail.Clear();
-                    textBoxUsername.Clear();
+
 
                     connection.Close();
 
@@ -77,22 +77,19 @@ namespace GetFastAdmin
                 else
                 {
                     dr.Close();
-                    String sqlQuery = "INSERT INTO db_users ([user_name],[name],[surname],[password],[email],[address],[zip],[city],[country],[status],[userRole]) VALUES (@p1,@p2,@p3,@p4,@p5,@p6,@p7,@p8,@p9,@p10,@p11)";
+                    String sqlQuery = "INSERT INTO db_users ([firstname],[lastname],[password],[email],[address],[tel],[status],[role]) VALUES (@p1,@p2,@p3,@p4,@p5,@p6,@p7,@p8)";
 
                     string password_crypted = Cryptography.Encrypt(textBoxPassword.Text.ToString());
 
                     cmd = new SqlCommand(sqlQuery, connection);
-                    cmd.Parameters.AddWithValue("@p1", textBoxUsername.Text);
-                    cmd.Parameters.AddWithValue("@p2", textBoxName.Text);
-                    cmd.Parameters.AddWithValue("@p3", textBoxSurname.Text);
-                    cmd.Parameters.AddWithValue("@p4", password_crypted);
-                    cmd.Parameters.AddWithValue("@p5", textBoxMail.Text);
-                    cmd.Parameters.AddWithValue("@p6", textBoxAddress.Text);
-                    cmd.Parameters.AddWithValue("@p7", textBoxZip.Text);
-                    cmd.Parameters.AddWithValue("@p8", textBoxCity.Text);
-                    cmd.Parameters.AddWithValue("@p9", textBoxCountry.Text);
-                    cmd.Parameters.AddWithValue("@p10", comboBoxStatus.Text);
-                    cmd.Parameters.AddWithValue("@p11", comboBoxUserRole.Text);
+                    cmd.Parameters.AddWithValue("@p1", textBoxFirstname.Text);
+                    cmd.Parameters.AddWithValue("@p2", textBoxLastname.Text);
+                    cmd.Parameters.AddWithValue("@p3", password_crypted);
+                    cmd.Parameters.AddWithValue("@p4", textBoxMail.Text);
+                    cmd.Parameters.AddWithValue("@p5", textBoxAddress.Text);
+                    cmd.Parameters.AddWithValue("@p6", textBoxTel.Text);
+                    cmd.Parameters.AddWithValue("@p7", comboBoxStatus.Text);
+                    cmd.Parameters.AddWithValue("@p8", comboBoxUserRole.Text);
 
                     cmd.CommandType = CommandType.Text;
                     cmd.ExecuteNonQuery();
@@ -110,15 +107,12 @@ namespace GetFastAdmin
 
         public void clearFields()
         {
-            textBoxUsername.Clear();
-            textBoxName.Clear();
-            textBoxSurname.Clear();
+            textBoxFirstname.Clear();
+            textBoxLastname.Clear();
             textBoxPassword.Clear();
             textBoxMail.Clear();
             textBoxAddress.Clear();
-            textBoxZip.Clear();
-            textBoxCity.Clear();
-            textBoxCountry.Clear();
+            textBoxTel.Clear();
             comboBoxStatus.Text = "";
             comboBoxUserRole.Text = "";
 
@@ -141,6 +135,8 @@ namespace GetFastAdmin
                     dataGridView1.Rows.RemoveAt(i);
 
                     MessageBox.Show("Data deleted");
+                    connection.Close();
+                    clearFields();
                 }
             }
 
@@ -152,17 +148,14 @@ namespace GetFastAdmin
             if(dataGridView1.Rows.Count > 0)
             {
                 tempID = int.Parse(dataGridView1.SelectedRows[0].Cells[0].Value.ToString());
-                textBoxUsername.Text = dataGridView1.SelectedRows[0].Cells[1].Value.ToString();
-                textBoxName.Text = dataGridView1.SelectedRows[0].Cells[2].Value.ToString();
-                textBoxSurname.Text = dataGridView1.SelectedRows[0].Cells[3].Value.ToString();
-                textBoxPassword.Text = dataGridView1.SelectedRows[0].Cells[4].Value.ToString();
-                textBoxMail.Text = dataGridView1.SelectedRows[0].Cells[5].Value.ToString();
-                textBoxAddress.Text = dataGridView1.SelectedRows[0].Cells[6].Value.ToString();
-                textBoxZip.Text = dataGridView1.SelectedRows[0].Cells[7].Value.ToString();
-                textBoxCity.Text = dataGridView1.SelectedRows[0].Cells[8].Value.ToString();
-                textBoxCountry.Text = dataGridView1.SelectedRows[0].Cells[9].Value.ToString();
-                comboBoxStatus.Text = dataGridView1.SelectedRows[0].Cells[10].Value.ToString();
-                comboBoxUserRole.Text = dataGridView1.SelectedRows[0].Cells[11].Value.ToString();
+                textBoxFirstname.Text = dataGridView1.SelectedRows[0].Cells[1].Value.ToString();
+                textBoxLastname.Text = dataGridView1.SelectedRows[0].Cells[2].Value.ToString();
+                textBoxPassword.Text = dataGridView1.SelectedRows[0].Cells[3].Value.ToString();
+                textBoxMail.Text = dataGridView1.SelectedRows[0].Cells[4].Value.ToString();
+                textBoxAddress.Text = dataGridView1.SelectedRows[0].Cells[5].Value.ToString();
+                textBoxTel.Text = dataGridView1.SelectedRows[0].Cells[6].Value.ToString();
+                comboBoxStatus.Text = dataGridView1.SelectedRows[0].Cells[7].Value.ToString();
+                comboBoxUserRole.Text = dataGridView1.SelectedRows[0].Cells[8].Value.ToString();
             }
         }
 
@@ -173,22 +166,22 @@ namespace GetFastAdmin
 
             com.Connection = connection;
 
-            String sqlQuery = "UPDATE db_users SET user_name=@p1, name=@p2, surname=@p3, password=@p4, email=@p5, address=@p6, zip=@p7, city=@p8, country=@p9, status=@p10, userRole=@p11 WHERE ID = '" + tempID + "' ";
+            String password_decrypt = Cryptography.Decrypt(textBoxPassword.Text);
 
-            string password_crypted = Cryptography.Encrypt(textBoxPassword.Text.ToString());
+            String sqlQuery = "UPDATE db_users SET firstname=@p1, lastname=@p2, password=@p3, email=@p4, address=@p5, tel=@p6, status=@p7, role=@p8 WHERE ID = '" + tempID + "' ";
+
+            string password_crypted = Cryptography.Encrypt(password_decrypt);
 
             cmd = new SqlCommand(sqlQuery, connection);
-            cmd.Parameters.AddWithValue("@p1", textBoxUsername.Text);
-            cmd.Parameters.AddWithValue("@p2", textBoxName.Text);
-            cmd.Parameters.AddWithValue("@p3", textBoxSurname.Text);
-            cmd.Parameters.AddWithValue("@p4", password_crypted);
-            cmd.Parameters.AddWithValue("@p5", textBoxMail.Text);
-            cmd.Parameters.AddWithValue("@p6", textBoxAddress.Text);
-            cmd.Parameters.AddWithValue("@p7", int.Parse(textBoxZip.Text));
-            cmd.Parameters.AddWithValue("@p8", textBoxCity.Text);
-            cmd.Parameters.AddWithValue("@p9", textBoxCountry.Text);
-            cmd.Parameters.AddWithValue("@p10", comboBoxStatus.Text);
-            cmd.Parameters.AddWithValue("@p11", comboBoxUserRole.Text);
+
+                cmd.Parameters.AddWithValue("@p1", textBoxFirstname.Text);
+                cmd.Parameters.AddWithValue("@p2", textBoxLastname.Text);
+                cmd.Parameters.AddWithValue("@p3", password_crypted);
+                cmd.Parameters.AddWithValue("@p4", textBoxMail.Text);
+                cmd.Parameters.AddWithValue("@p5", textBoxAddress.Text);
+                cmd.Parameters.AddWithValue("@p6", textBoxTel.Text);
+                cmd.Parameters.AddWithValue("@p7", comboBoxStatus.Text);
+                cmd.Parameters.AddWithValue("@p8", comboBoxUserRole.Text);
 
             cmd.CommandType = CommandType.Text;
             cmd.ExecuteNonQuery();
@@ -199,6 +192,7 @@ namespace GetFastAdmin
             MessageBox.Show("Data updated");
 
             clearFields();
+
 
         }
 
