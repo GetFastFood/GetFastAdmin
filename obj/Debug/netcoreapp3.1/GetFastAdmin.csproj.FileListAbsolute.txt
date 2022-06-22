@@ -33,7 +33,6 @@ D:\Git\GetFastAdminGit\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
 D:\Git\GetFastAdminGit\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
 D:\Git\GetFastAdminGit\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\Git\GetFastAdminGit\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-D:\Git\GetFastAdminGit\obj\Debug\netcoreapp3.1\GetFastAdmin.csprojAssemblyReference.cache
 D:\Git\GetFastAdminGit\obj\Debug\netcoreapp3.1\GetFastAdmin.csproj.GenerateResource.cache
 D:\Git\GetFastAdminGit\obj\Debug\netcoreapp3.1\GetFastAdmin.AssemblyInfoInputs.cache
 D:\Git\GetFastAdminGit\obj\Debug\netcoreapp3.1\GetFastAdmin.AssemblyInfo.cs
@@ -44,3 +43,6 @@ D:\Git\GetFastAdminGit\obj\Debug\netcoreapp3.1\GetFastAdmin.pdb
 D:\Git\GetFastAdminGit\obj\Debug\netcoreapp3.1\GetFastAdmin.genruntimeconfig.cache
 D:\Git\GetFastAdminGit\obj\Debug\netcoreapp3.1\GetFastAdmin.FormDataGrid.resources
 D:\Git\GetFastAdminGit\obj\Debug\netcoreapp3.1\GetFastAdmin.FormLogin.resources
+D:\Git\GetFastAdminGit\obj\Debug\netcoreapp3.1\GetFastAdmin.csproj.AssemblyReference.cache
+D:\Git\GetFastAdminGit\obj\Debug\netcoreapp3.1\GetFastAdmin.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\GetFastAdminGit\obj\Debug\netcoreapp3.1\GetFastAdmin.Properties.Resources.resources

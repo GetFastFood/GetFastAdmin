@@ -36,7 +36,6 @@ namespace GetFastAdmin
             this.textBoxAddress = new System.Windows.Forms.TextBox();
             this.comboBoxStatus = new System.Windows.Forms.ComboBox();
             this.comboBoxUserRole = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -52,6 +51,8 @@ namespace GetFastAdmin
             this.button5 = new System.Windows.Forms.Button();
             this.textBoxTel = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.firstname = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lastname = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -62,6 +63,7 @@ namespace GetFastAdmin
             this.status = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.role = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // textBoxFirstname
@@ -106,13 +108,6 @@ namespace GetFastAdmin
             resources.GetString("comboBoxUserRole.Items6")});
             resources.ApplyResources(this.comboBoxUserRole, "comboBoxUserRole");
             this.comboBoxUserRole.Name = "comboBoxUserRole";
-            // 
-            // button1
-            // 
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -173,6 +168,7 @@ namespace GetFastAdmin
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 29;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             this.dataGridView1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.dataGridView1_MouseDoubleClick);
             // 
             // label8
@@ -214,27 +210,45 @@ namespace GetFastAdmin
             resources.ApplyResources(this.label5, "label5");
             this.label5.Name = "label5";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::GetFastAdmin.Properties.Resources.banner3;
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.TabStop = false;
+            // 
+            // label6
+            // 
+            resources.ApplyResources(this.label6, "label6");
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
+            this.label6.Name = "label6";
+            // 
             // id
             // 
             this.id.DataPropertyName = "ID";
+            this.id.Frozen = true;
             resources.ApplyResources(this.id, "id");
             this.id.Name = "id";
             // 
             // firstname
             // 
             this.firstname.DataPropertyName = "firstname";
+            this.firstname.Frozen = true;
             resources.ApplyResources(this.firstname, "firstname");
             this.firstname.Name = "firstname";
             // 
             // lastname
             // 
             this.lastname.DataPropertyName = "lastname";
+            this.lastname.Frozen = true;
             resources.ApplyResources(this.lastname, "lastname");
             this.lastname.Name = "lastname";
             // 
             // password
             // 
             this.password.DataPropertyName = "password";
+            this.password.Frozen = true;
             resources.ApplyResources(this.password, "password");
             this.password.Name = "password";
             // 
@@ -272,6 +286,8 @@ namespace GetFastAdmin
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.textBoxTel);
             this.Controls.Add(this.button5);
@@ -286,7 +302,6 @@ namespace GetFastAdmin
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.comboBoxUserRole);
             this.Controls.Add(this.comboBoxStatus);
@@ -294,8 +309,10 @@ namespace GetFastAdmin
             this.Controls.Add(this.textBoxMail);
             this.Controls.Add(this.textBoxLastname);
             this.Controls.Add(this.textBoxFirstname);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormDataGrid";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -308,7 +325,6 @@ namespace GetFastAdmin
         private System.Windows.Forms.TextBox textBoxAddress;
         private System.Windows.Forms.ComboBox comboBoxStatus;
         private System.Windows.Forms.ComboBox comboBoxUserRole;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
@@ -324,6 +340,8 @@ namespace GetFastAdmin
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.TextBox textBoxTel;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.DataGridViewTextBoxColumn id;
         private System.Windows.Forms.DataGridViewTextBoxColumn firstname;
         private System.Windows.Forms.DataGridViewTextBoxColumn lastname;

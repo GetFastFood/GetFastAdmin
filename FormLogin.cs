@@ -44,6 +44,7 @@ namespace GetFastAdmin
             {
                 Password = dr.GetString(3);  //get the user password from db if the user name is exist in that.  
                 IsExist = true;
+
             }
 
             if (IsExist)  //if record exis in db , it will return true, otherwise it will return false  
@@ -62,20 +63,20 @@ namespace GetFastAdmin
                     else
                     {
                         connection.Close();
-                        MessageBox.Show("Password is wrong!...", "error", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("Le mot de passe est incorrect ....", "error", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                 }
                 else
                 {
                     connection.Close();
-                    MessageBox.Show("Vous n'etes pas du staff", "error", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Vous n'êtes pas du staff", "error", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 
             }
             else  //showing the error message if user credential is wrong  
             {
                 connection.Close();
-                MessageBox.Show("Please enter the valid credentials", "error", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Veuillez entrer les informations d'identification valides", "error", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
 
         }
@@ -88,6 +89,11 @@ namespace GetFastAdmin
         private void quitButton_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void FormLogin_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -57,91 +57,91 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing.Primitives" name="System.Drawing.Primitives, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="textBoxFirstname.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="textBoxFirstname.Location" type="System.Drawing.Point, System.Drawing">
     <value>18, 239</value>
   </data>
-  <data name="textBoxFirstname.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="textBoxFirstname.Size" type="System.Drawing.Size, System.Drawing">
     <value>125, 27</value>
   </data>
-  <assembly alias="System.Private.CoreLib" name="System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" />
-  <data name="textBoxFirstname.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="textBoxFirstname.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="&gt;&gt;textBoxFirstname.Name" xml:space="preserve">
     <value>textBoxFirstname</value>
   </data>
   <data name="&gt;&gt;textBoxFirstname.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;textBoxFirstname.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBoxFirstname.ZOrder" xml:space="preserve">
-    <value>21</value>
+    <value>22</value>
   </data>
-  <data name="textBoxLastname.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="textBoxLastname.Location" type="System.Drawing.Point, System.Drawing">
     <value>188, 239</value>
   </data>
-  <data name="textBoxLastname.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="textBoxLastname.Size" type="System.Drawing.Size, System.Drawing">
     <value>125, 27</value>
   </data>
-  <data name="textBoxLastname.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="textBoxLastname.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
   <data name="&gt;&gt;textBoxLastname.Name" xml:space="preserve">
     <value>textBoxLastname</value>
   </data>
   <data name="&gt;&gt;textBoxLastname.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;textBoxLastname.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBoxLastname.ZOrder" xml:space="preserve">
-    <value>20</value>
+    <value>21</value>
   </data>
-  <data name="textBoxMail.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="textBoxMail.Location" type="System.Drawing.Point, System.Drawing">
     <value>188, 298</value>
   </data>
-  <data name="textBoxMail.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="textBoxMail.Size" type="System.Drawing.Size, System.Drawing">
     <value>125, 27</value>
   </data>
-  <data name="textBoxMail.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="textBoxMail.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
   <data name="&gt;&gt;textBoxMail.Name" xml:space="preserve">
     <value>textBoxMail</value>
   </data>
   <data name="&gt;&gt;textBoxMail.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;textBoxMail.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBoxMail.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>20</value>
   </data>
-  <data name="textBoxAddress.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="textBoxAddress.Location" type="System.Drawing.Point, System.Drawing">
     <value>18, 364</value>
   </data>
-  <data name="textBoxAddress.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="textBoxAddress.Size" type="System.Drawing.Size, System.Drawing">
     <value>125, 27</value>
   </data>
-  <data name="textBoxAddress.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="textBoxAddress.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
   <data name="&gt;&gt;textBoxAddress.Name" xml:space="preserve">
     <value>textBoxAddress</value>
   </data>
   <data name="&gt;&gt;textBoxAddress.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;textBoxAddress.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBoxAddress.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>19</value>
   </data>
   <data name="comboBoxStatus.Items" xml:space="preserve">
     <value>True</value>
@@ -149,26 +149,26 @@
   <data name="comboBoxStatus.Items1" xml:space="preserve">
     <value>False</value>
   </data>
-  <data name="comboBoxStatus.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="comboBoxStatus.Location" type="System.Drawing.Point, System.Drawing">
     <value>18, 464</value>
   </data>
-  <data name="comboBoxStatus.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="comboBoxStatus.Size" type="System.Drawing.Size, System.Drawing">
     <value>125, 28</value>
   </data>
-  <data name="comboBoxStatus.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="comboBoxStatus.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
   </data>
   <data name="&gt;&gt;comboBoxStatus.Name" xml:space="preserve">
     <value>comboBoxStatus</value>
   </data>
   <data name="&gt;&gt;comboBoxStatus.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;comboBoxStatus.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;comboBoxStatus.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>18</value>
   </data>
   <data name="comboBoxUserRole.Items" xml:space="preserve">
     <value>role_technique</value>
@@ -191,143 +191,128 @@
   <data name="comboBoxUserRole.Items6" xml:space="preserve">
     <value>role_admin</value>
   </data>
-  <data name="comboBoxUserRole.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="comboBoxUserRole.Location" type="System.Drawing.Point, System.Drawing">
     <value>188, 464</value>
   </data>
-  <data name="comboBoxUserRole.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="comboBoxUserRole.Size" type="System.Drawing.Size, System.Drawing">
     <value>125, 28</value>
   </data>
-  <data name="comboBoxUserRole.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="comboBoxUserRole.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
   </data>
   <data name="&gt;&gt;comboBoxUserRole.Name" xml:space="preserve">
     <value>comboBoxUserRole</value>
   </data>
   <data name="&gt;&gt;comboBoxUserRole.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;comboBoxUserRole.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;comboBoxUserRole.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>17</value>
   </data>
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>512, 672</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
-  <data name="button1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>94, 29</value>
-  </data>
-  <data name="button1.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>19</value>
-  </data>
-  <data name="button1.Text" xml:space="preserve">
-    <value>Show</value>
-  </data>
-  <data name="&gt;&gt;button1.Name" xml:space="preserve">
-    <value>button1</value>
-  </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="button2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>746, 672</value>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 672</value>
   </data>
-  <data name="button2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>94, 29</value>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 29</value>
   </data>
-  <data name="button2.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
   </data>
   <data name="button2.Text" xml:space="preserve">
-    <value>Insert</value>
+    <value>Ajouter un utilisateur</value>
   </data>
   <data name="&gt;&gt;button2.Name" xml:space="preserve">
     <value>button2</value>
   </data>
   <data name="&gt;&gt;button2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;button2.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>15</value>
+  </data>
+  <data name="button3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
   <data name="button3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="button3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>980, 672</value>
+  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>751, 672</value>
   </data>
-  <data name="button3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>94, 29</value>
+  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 29</value>
   </data>
-  <data name="button3.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="button3.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
   </data>
   <data name="button3.Text" xml:space="preserve">
-    <value>Update</value>
+    <value>Modifier un utilisateur</value>
   </data>
   <data name="&gt;&gt;button3.Name" xml:space="preserve">
     <value>button3</value>
   </data>
   <data name="&gt;&gt;button3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;button3.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>14</value>
+  </data>
+  <data name="button4.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
   <data name="button4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="button4.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>1226, 672</value>
+  <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1126, 672</value>
   </data>
-  <data name="button4.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>94, 29</value>
+  <data name="button4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 29</value>
   </data>
-  <data name="button4.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="button4.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
   </data>
   <data name="button4.Text" xml:space="preserve">
-    <value>Delete</value>
+    <value>Supprimer un utilisateur</value>
   </data>
   <data name="&gt;&gt;button4.Name" xml:space="preserve">
     <value>button4</value>
   </data>
   <data name="&gt;&gt;button4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;button4.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button4.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>13</value>
   </data>
-  <data name="label1.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
     <value>52, 216</value>
   </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 20</value>
   </data>
-  <data name="label1.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
@@ -337,24 +322,24 @@
     <value>label1</value>
   </data>
   <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>12</value>
   </data>
-  <data name="label2.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
     <value>222, 216</value>
   </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>42, 20</value>
   </data>
-  <data name="label2.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
@@ -364,24 +349,24 @@
     <value>label2</value>
   </data>
   <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label2.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>11</value>
   </data>
-  <data name="label3.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
     <value>222, 275</value>
   </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
     <value>46, 20</value>
   </data>
-  <data name="label3.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
@@ -391,24 +376,24 @@
     <value>label3</value>
   </data>
   <data name="&gt;&gt;label3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label3.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>10</value>
   </data>
-  <data name="label4.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label4.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
     <value>51, 341</value>
   </data>
-  <data name="label4.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>61, 20</value>
   </data>
-  <data name="label4.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
@@ -418,75 +403,159 @@
     <value>label4</value>
   </data>
   <data name="&gt;&gt;label4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label4.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>9</value>
   </data>
-  <metadata name="id.UserAddedColumn" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+  <metadata name="id.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="firstname.UserAddedColumn" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+  <data name="id.HeaderText" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="id.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="id.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <metadata name="firstname.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="lastname.UserAddedColumn" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+  <data name="firstname.HeaderText" xml:space="preserve">
+    <value>Prénom</value>
+  </data>
+  <data name="firstname.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="firstname.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <metadata name="lastname.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="password.UserAddedColumn" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+  <data name="lastname.HeaderText" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="lastname.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lastname.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <metadata name="password.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="email.UserAddedColumn" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+  <data name="password.HeaderText" xml:space="preserve">
+    <value>Mots de passe</value>
+  </data>
+  <data name="password.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="password.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="password.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <metadata name="email.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="address.UserAddedColumn" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+  <data name="email.HeaderText" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="email.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="email.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <metadata name="address.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="tel.UserAddedColumn" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+  <data name="address.HeaderText" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="address.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="address.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <metadata name="tel.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="status.UserAddedColumn" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+  <data name="tel.HeaderText" xml:space="preserve">
+    <value>Téléphone</value>
+  </data>
+  <data name="tel.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="tel.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <metadata name="status.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="role.UserAddedColumn" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+  <data name="status.HeaderText" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="status.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="status.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <metadata name="role.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="dataGridView1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="role.HeaderText" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="role.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="role.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="dataGridView1.Location" type="System.Drawing.Point, System.Drawing">
     <value>348, 193</value>
   </data>
-  <data name="dataGridView1.RowHeadersWidth" type="System.Int32, System.Private.CoreLib">
+  <data name="dataGridView1.RowHeadersWidth" type="System.Int32, mscorlib">
     <value>51</value>
   </data>
-  <data name="dataGridView1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="dataGridView1.Size" type="System.Drawing.Size, System.Drawing">
     <value>1020, 462</value>
   </data>
-  <data name="dataGridView1.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="dataGridView1.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
   </data>
   <data name="&gt;&gt;dataGridView1.Name" xml:space="preserve">
     <value>dataGridView1</value>
   </data>
   <data name="&gt;&gt;dataGridView1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;dataGridView1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;dataGridView1.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>16</value>
   </data>
-  <data name="label8.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label8.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
     <value>51, 422</value>
   </data>
-  <data name="label8.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 20</value>
   </data>
-  <data name="label8.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
@@ -496,72 +565,72 @@
     <value>label8</value>
   </data>
   <data name="&gt;&gt;label8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label8.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>8</value>
   </data>
-  <data name="label9.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label9.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>217, 422</value>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 422</value>
   </data>
-  <data name="label9.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>68, 20</value>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 20</value>
   </data>
-  <data name="label9.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
     <value>31</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>User role</value>
+    <value>Role</value>
   </data>
   <data name="&gt;&gt;label9.Name" xml:space="preserve">
     <value>label9</value>
   </data>
   <data name="&gt;&gt;label9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label9.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>7</value>
   </data>
-  <data name="textBoxPassword.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="textBoxPassword.Location" type="System.Drawing.Point, System.Drawing">
     <value>18, 298</value>
   </data>
-  <data name="textBoxPassword.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="textBoxPassword.Size" type="System.Drawing.Size, System.Drawing">
     <value>125, 27</value>
   </data>
-  <data name="textBoxPassword.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="textBoxPassword.TabIndex" type="System.Int32, mscorlib">
     <value>33</value>
   </data>
   <data name="&gt;&gt;textBoxPassword.Name" xml:space="preserve">
     <value>textBoxPassword</value>
   </data>
   <data name="&gt;&gt;textBoxPassword.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;textBoxPassword.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBoxPassword.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>6</value>
   </data>
-  <data name="label11.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label11.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
     <value>26, 275</value>
   </data>
-  <data name="label11.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
     <value>104, 20</value>
   </data>
-  <data name="label11.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
     <value>35</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
@@ -571,21 +640,24 @@
     <value>label11</value>
   </data>
   <data name="&gt;&gt;label11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label11.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
   </data>
-  <data name="button5.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="button5.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="button5.Location" type="System.Drawing.Point, System.Drawing">
     <value>26, 672</value>
   </data>
-  <data name="button5.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="button5.Size" type="System.Drawing.Size, System.Drawing">
     <value>94, 29</value>
   </data>
-  <data name="button5.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="button5.TabIndex" type="System.Int32, mscorlib">
     <value>36</value>
   </data>
   <data name="button5.Text" xml:space="preserve">
@@ -595,45 +667,45 @@
     <value>button5</value>
   </data>
   <data name="&gt;&gt;button5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;button5.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button5.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
-  <data name="textBoxTel.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="textBoxTel.Location" type="System.Drawing.Point, System.Drawing">
     <value>188, 364</value>
   </data>
-  <data name="textBoxTel.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="textBoxTel.Size" type="System.Drawing.Size, System.Drawing">
     <value>125, 27</value>
   </data>
-  <data name="textBoxTel.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="textBoxTel.TabIndex" type="System.Int32, mscorlib">
     <value>37</value>
   </data>
   <data name="&gt;&gt;textBoxTel.Name" xml:space="preserve">
     <value>textBoxTel</value>
   </data>
   <data name="&gt;&gt;textBoxTel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;textBoxTel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBoxTel.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
-  <data name="label5.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label5.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
     <value>207, 341</value>
   </data>
-  <data name="label5.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
     <value>78, 20</value>
   </data>
-  <data name="label5.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
     <value>38</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
@@ -643,129 +715,75 @@
     <value>label5</value>
   </data>
   <data name="&gt;&gt;label5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label5.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-5, 0</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1402, 187</value>
+  </data>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>CenterImage</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bauhaus 93, 24pt, style=Bold</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>423, 75</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>570, 45</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Modifications des utilisateurs</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="id.UserAddedColumn" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="id.HeaderText" xml:space="preserve">
-    <value>ID</value>
-  </data>
-  <data name="id.MinimumWidth" type="System.Int32, System.Private.CoreLib">
-    <value>6</value>
-  </data>
-  <data name="id.Width" type="System.Int32, System.Private.CoreLib">
-    <value>125</value>
-  </data>
-  <metadata name="firstname.UserAddedColumn" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
-    <value>True</value>
-  </metadata>
-  <data name="firstname.HeaderText" xml:space="preserve">
-    <value>Prénom</value>
-  </data>
-  <data name="firstname.MinimumWidth" type="System.Int32, System.Private.CoreLib">
-    <value>6</value>
-  </data>
-  <data name="firstname.Width" type="System.Int32, System.Private.CoreLib">
-    <value>125</value>
-  </data>
-  <metadata name="lastname.UserAddedColumn" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
-    <value>True</value>
-  </metadata>
-  <data name="lastname.HeaderText" xml:space="preserve">
-    <value>Nom</value>
-  </data>
-  <data name="lastname.MinimumWidth" type="System.Int32, System.Private.CoreLib">
-    <value>6</value>
-  </data>
-  <data name="lastname.Width" type="System.Int32, System.Private.CoreLib">
-    <value>125</value>
-  </data>
-  <metadata name="password.UserAddedColumn" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
-    <value>True</value>
-  </metadata>
-  <data name="password.HeaderText" xml:space="preserve">
-    <value>Mots de passe</value>
-  </data>
-  <data name="password.MinimumWidth" type="System.Int32, System.Private.CoreLib">
-    <value>6</value>
-  </data>
-  <data name="password.Width" type="System.Int32, System.Private.CoreLib">
-    <value>125</value>
-  </data>
-  <metadata name="email.UserAddedColumn" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
-    <value>True</value>
-  </metadata>
-  <data name="email.HeaderText" xml:space="preserve">
-    <value>Email</value>
-  </data>
-  <data name="email.MinimumWidth" type="System.Int32, System.Private.CoreLib">
-    <value>6</value>
-  </data>
-  <data name="email.Width" type="System.Int32, System.Private.CoreLib">
-    <value>125</value>
-  </data>
-  <metadata name="address.UserAddedColumn" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
-    <value>True</value>
-  </metadata>
-  <data name="address.HeaderText" xml:space="preserve">
-    <value>Address</value>
-  </data>
-  <data name="address.MinimumWidth" type="System.Int32, System.Private.CoreLib">
-    <value>6</value>
-  </data>
-  <data name="address.Width" type="System.Int32, System.Private.CoreLib">
-    <value>125</value>
-  </data>
-  <metadata name="tel.UserAddedColumn" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
-    <value>True</value>
-  </metadata>
-  <data name="tel.HeaderText" xml:space="preserve">
-    <value>Téléphone</value>
-  </data>
-  <data name="tel.MinimumWidth" type="System.Int32, System.Private.CoreLib">
-    <value>6</value>
-  </data>
-  <data name="tel.Width" type="System.Int32, System.Private.CoreLib">
-    <value>125</value>
-  </data>
-  <metadata name="status.UserAddedColumn" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
-    <value>True</value>
-  </metadata>
-  <data name="status.HeaderText" xml:space="preserve">
-    <value>Status</value>
-  </data>
-  <data name="status.MinimumWidth" type="System.Int32, System.Private.CoreLib">
-    <value>6</value>
-  </data>
-  <data name="status.Width" type="System.Int32, System.Private.CoreLib">
-    <value>125</value>
-  </data>
-  <metadata name="role.UserAddedColumn" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
-    <value>True</value>
-  </metadata>
-  <data name="role.HeaderText" xml:space="preserve">
-    <value>Role</value>
-  </data>
-  <data name="role.MinimumWidth" type="System.Int32, System.Private.CoreLib">
-    <value>6</value>
-  </data>
-  <data name="role.Width" type="System.Int32, System.Private.CoreLib">
-    <value>125</value>
-  </data>
-  <metadata name="$this.Localizable" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
-    <value>True</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing.Primitives">
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>8, 20</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>1398, 713</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
@@ -775,60 +793,60 @@
     <value>id</value>
   </data>
   <data name="&gt;&gt;id.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;firstname.Name" xml:space="preserve">
     <value>firstname</value>
   </data>
   <data name="&gt;&gt;firstname.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lastname.Name" xml:space="preserve">
     <value>lastname</value>
   </data>
   <data name="&gt;&gt;lastname.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;password.Name" xml:space="preserve">
     <value>password</value>
   </data>
   <data name="&gt;&gt;password.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;email.Name" xml:space="preserve">
     <value>email</value>
   </data>
   <data name="&gt;&gt;email.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;address.Name" xml:space="preserve">
     <value>address</value>
   </data>
   <data name="&gt;&gt;address.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tel.Name" xml:space="preserve">
     <value>tel</value>
   </data>
   <data name="&gt;&gt;tel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;status.Name" xml:space="preserve">
     <value>status</value>
   </data>
   <data name="&gt;&gt;status.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;role.Name" xml:space="preserve">
     <value>role</value>
   </data>
   <data name="&gt;&gt;role.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>FormDataGrid</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

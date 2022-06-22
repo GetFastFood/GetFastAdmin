@@ -97,7 +97,7 @@ namespace GetFastAdmin
                     connection.Close();
 
                     display();
-                    MessageBox.Show("Data inserted");
+                    MessageBox.Show("Utilisateur ajouté");
                     clearFields();
 
                 }
@@ -134,7 +134,7 @@ namespace GetFastAdmin
                     sqlCommand.ExecuteNonQuery();
                     dataGridView1.Rows.RemoveAt(i);
 
-                    MessageBox.Show("Data deleted");
+                    MessageBox.Show("Utilisateur supprimé");
                     connection.Close();
                     clearFields();
                 }
@@ -189,7 +189,7 @@ namespace GetFastAdmin
             connection.Close();
 
             display();
-            MessageBox.Show("Data updated");
+            MessageBox.Show("✅ Utlisateur mis à jour ✅");
 
             clearFields();
 
@@ -207,6 +207,11 @@ namespace GetFastAdmin
         }
 
         private void textBoxUsername_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
