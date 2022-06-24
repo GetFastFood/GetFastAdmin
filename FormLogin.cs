@@ -29,8 +29,9 @@ namespace GetFastAdmin
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string Password = "";
+            string passwordEncrypt = "";
             string role = "";
+            string passwordDecyprt = "";
             bool IsExist = false;
 
             connection.Open();
@@ -42,7 +43,7 @@ namespace GetFastAdmin
 
             if (dr.Read())
             {
-                Password = dr.GetString(3);  //get the user password from db if the user name is exist in that.  
+                passwordEncrypt = dr.GetString(3);  //get the user password from db if the user name is exist in that.  
                 IsExist = true;
 
             }
@@ -53,7 +54,10 @@ namespace GetFastAdmin
                 connection.Close();
                 if (role == "role_technique" || role == "role_commercial")
                 {
-                    if (Cryptography.Decrypt(Password).Equals(textBox_password.Text))
+
+                    passwordDecyprt = AESEncryption.Decrypt(passwordEncrypt, "YFpoGQ@$VrUMf64tZ9eg^RiaQSZ^Pw%*");
+
+                    if (passwordDecyprt.Equals(textBox_password.Text))
                     {
                         this.Hide();
                         FormDataGrid formDatGrid = new FormDataGrid();

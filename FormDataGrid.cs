@@ -79,7 +79,7 @@ namespace GetFastAdmin
                     dr.Close();
                     String sqlQuery = "INSERT INTO db_users ([firstname],[lastname],[password],[email],[address],[tel],[status],[role]) VALUES (@p1,@p2,@p3,@p4,@p5,@p6,@p7,@p8)";
 
-                    string password_crypted = Cryptography.Encrypt(textBoxPassword.Text.ToString());
+                    string password_crypted = AESEncryption.Encrypt(textBoxPassword.Text.ToString(), "YFpoGQ@$VrUMf64tZ9eg^RiaQSZ^Pw%*"); //Cryptography.Encrypt(textBoxPassword.Text.ToString());
 
                     cmd = new SqlCommand(sqlQuery, connection);
                     cmd.Parameters.AddWithValue("@p1", textBoxFirstname.Text);
@@ -166,11 +166,9 @@ namespace GetFastAdmin
 
             com.Connection = connection;
 
-            String password_decrypt = Cryptography.Decrypt(textBoxPassword.Text);
-
             String sqlQuery = "UPDATE db_users SET firstname=@p1, lastname=@p2, password=@p3, email=@p4, address=@p5, tel=@p6, status=@p7, role=@p8 WHERE ID = '" + tempID + "' ";
 
-            string password_crypted = Cryptography.Encrypt(password_decrypt);
+            string password_crypted = AESEncryption.Encrypt(textBoxPassword.Text, "YFpoGQ@$VrUMf64tZ9eg^RiaQSZ^Pw%*"); //Cryptography.Encrypt(password_decrypt);
 
             cmd = new SqlCommand(sqlQuery, connection);
 
@@ -212,6 +210,16 @@ namespace GetFastAdmin
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxFirstname_TextChanged(object sender, EventArgs e)
         {
 
         }
